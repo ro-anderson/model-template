@@ -1,0 +1,9 @@
+# Packages requirements for the app part of the project
+
+flask
+
+{% if cookiecutter.python_interpreter != 'python3' %}
+
+# backwards compatibility
+pathlib2
+{% endif %}

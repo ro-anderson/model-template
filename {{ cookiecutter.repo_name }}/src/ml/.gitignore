@@ -1,0 +1,21 @@
+
+# keeping directories but not any file inside
+data/logs/*
+!data/logs/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/features/*
+!data/features/.gitkeep
+data/predict/*
+!data/predict/.gitkeep
+data/metrics/*
+!data/metrics/.gitkeep
+data/snapshots/*
+!data/snapshots/.gitkeep
+models/*
+!models/evaluate
+models/evaluate/*
+!models/evaluate/.gitkeep
+!models/full
+models/full/*
+!models/full/.gitkeep

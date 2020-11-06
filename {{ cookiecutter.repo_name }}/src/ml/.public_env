@@ -1,0 +1,4 @@
+# Environment variables for the machine learning project
+DATA_DIR="data"
+LOGS_DIR="data/logs"
+MODELS_DIR="models"

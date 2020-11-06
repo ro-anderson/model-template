@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  data_science:
+    build: ./
+    volumes:
+      - .:/{{cookiecutter.description}}
+    dns:
+        - 8.8.8.8
+
